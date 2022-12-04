@@ -7,17 +7,17 @@ a {
   color: black;
 }
 
-.block-1 {
+.welcome-block {
   display: flex;
   align-items: center;
   padding: 10vw;
 }
 
-.block-1-1 {
+.welcome-block-text {
   display: flex;
   flex-direction: column;
-  padding: 100px;
   font-size: 1.5rem;
+  padding-left: 5vw;
 }
 
 .avatar {
@@ -26,7 +26,34 @@ a {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
-.contacts {
+.skills-header {
+  text-align: center;
+  font-size: 100px;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px 10px;
+}
+
+.skill-icon-html {
+  width: 300px;
+}
+.skill-icon-css {
+  width: 210px;
+}
+.skill-icon-react {
+  width: 250px;
+}
+.skill-icon-git {
+  width: 260px;
+}
+.skill-icon-vscode {
+  width: 260px;
+}
+
+.skill-icon-html .contacts {
   width: 100vw;
   display: flex;
   justify-content: space-between;
