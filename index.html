@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Привет :)</title>
   </head>
   <body>
     <table cellspacing="15">
@@ -42,8 +42,9 @@
       <li>Программирование</li>
       <li>Youtube</li>
     </ol>
-    <h2>Связаться со мной</h2>
-    <form action="">
+    <hr />
+    <h2>Вопросики</h2>
+    <form action="/">
       <label for="name">Ваше имя:</label>
       <input id="name" type="text" placeholder="Введите ваше имя..." />
       <br />
@@ -51,27 +52,58 @@
       <input type="email" id="email" />
       <br />
       <br />
-      <input type="number" />
+      <label for="number">Возраст: </label>
+      <input type="number" id="number" value="1" />
       <br />
       <br />
+      <label for="password">Пароль: </label>
       <input type="password" name="password" id="password" />
       <br />
       <br />
       <input type="color" name="color" id="color" />
       <br />
       <br />
+      <label for="date"><h2>Дата рождения</h2></label>
       <input type="date" name="date" id="date" />
       <br />
       <br />
+      <label for="range"><h2>Как сильно вам нравится учиться?</h2></label>
       <input type="range" name="range" id="range" />
       <br />
       <br />
-      <input type="checkbox" name="checkbox" id="checkbox" />
+      <h2>Твое любимое время года?</h2>
+      <input type="checkbox" name="checkbox" id="checkbox-1" />
+      <label for="checkbox-1">Лето</label>
+      <br />
+      <input type="checkbox" name="checkbox" id="checkbox-2" />
+      <label for="checkbox-2">Осень</label>
+      <br />
+      <input type="checkbox" name="checkbox" id="checkbox-3" />
+      <label for="checkbox-3">Зима</label>
+      <br />
+      <input type="checkbox" name="checkbox" id="checkbox-4" />
+      <label for="checkbox-4">Весна</label>
       <br />
       <br />
-      <input type="radio" name="radio" id="radio" />
+      <h2>Тебе нравятся котики?</h2>
+      <input type="radio" name="radio" id="radio-1" />
+      <label for="radion-1">Да</label>
       <br />
-      <input type="submit" value="submit" />
+      <input type="radio" name="radio" id="radio-2" />
+      <label for="radion-1">Нет</label>
+      <br />
+      <br />
+      <label for="textarea"><h2>Напиши о себе :)</h2></label>
+      <textarea
+        id="textarea"
+        rows="10"
+        cols="100"
+        placeholder="Я люблю гулять с друзьями..."
+      ></textarea>
+      <br />
+      <br />
+      <h2>Отправить?</h2>
+      <input type="submit" value="Да" />
     </form>
 
     <hr />
@@ -79,30 +111,30 @@
     <table>
       <thead>
         <tr>
-          <th>undefined</th>
-          <th>undefined</th>
-          <th>undefined</th>
+          <th>К</th>
+          <th>сожелению</th>
+          <th>еще</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>null</td>
-          <td>null</td>
-          <td>null</td>
+          <td>нет</td>
+          <td>трудового</td>
+          <td>опыта</td>
         </tr>
         <tr>
-          <td>null</td>
-          <td>null</td>
-          <td>null</td>
+          <td>но</td>
+          <td>есть</td>
+          <td>безграничный</td>
         </tr>
         <tr>
-          <td>null</td>
-          <td>null</td>
-          <td>null</td>
+          <td>потенциал</td>
+          <td>и</td>
+          <td>упорство</td>
         </tr>
       </tbody>
       <tfoot>
-        <td>error</td>
+        <td>:)</td>
       </tfoot>
     </table>
     <hr />
