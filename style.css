@@ -18,7 +18,8 @@ a {
 
 .welcome-block-text {
   display: flex;
-  background-color: #fff;
+  color: #fff;
+  background-color: rgba(33, 170, 33, 0.856);
   flex-direction: column;
   font-size: 1.5rem;
   margin-left: 5vw;
@@ -65,11 +66,24 @@ a {
 .skill-icon-linux {
   width: 260px;
 }
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.skill-icon {
+  rotate: 10;
+  animation: spin 20s linear infinite;
+}
 
 .contacts {
   width: 100vw;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin-left: 100px;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 
@@ -89,15 +103,26 @@ a {
   align-items: center;
 }
 
+.contacts-link-vk {
+  flex-grow: 3;
+  width: 200px;
+}
 .contacts-link-github {
-  flex-grow: 1;
+  flex-grow: 3;
   width: 200px;
 }
 .contacts-link-gmail {
-  flex-grow: 10;
+  flex-grow: 3;
 }
 .contacts-link-tel {
-  flex-grow: 5;
+  flex-grow: 3;
+}
+
+.contacts-icon-vk,
+.contacts-icon-github,
+.contacts-icon-gmail,
+.contacts-icon-tel {
+  width: 30px;
 }
 
 .contacts-icon-vk,
