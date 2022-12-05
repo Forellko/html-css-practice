@@ -1,5 +1,7 @@
 body {
   font-family: 'Roboto';
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -11,13 +13,21 @@ a {
   display: flex;
   align-items: center;
   padding: 10vw;
+  background-image: url('./image/programming.jpg');
 }
 
 .welcome-block-text {
   display: flex;
+  background-color: #fff;
   flex-direction: column;
   font-size: 1.5rem;
-  padding-left: 5vw;
+  margin-left: 5vw;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.welcome-block-name {
+  margin: 0;
 }
 
 .avatar {
@@ -52,15 +62,26 @@ a {
 .skill-icon-vscode {
   width: 260px;
 }
+.skill-icon-linux {
+  width: 260px;
+}
 
-.skill-icon-html .contacts {
+.contacts {
   width: 100vw;
   display: flex;
   justify-content: space-between;
-  flex-direction: column;
+  margin-bottom: 50px;
 }
 
-.contacts-link {
+.contacts-header {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.contacts-link-vk,
+.contacts-link-github,
+.contacts-link-gmail,
+.contacts-link-tel {
   display: flex;
   padding-left: 30px;
   height: 100px;
@@ -68,11 +89,42 @@ a {
   align-items: center;
 }
 
-.contacts-icon {
+.contacts-link-github {
+  flex-grow: 1;
+  width: 200px;
+}
+.contacts-link-gmail {
+  flex-grow: 10;
+}
+.contacts-link-tel {
+  flex-grow: 5;
+}
+
+.contacts-icon-vk,
+.contacts-icon-github,
+.contacts-icon-gmail,
+.contacts-icon-tel {
   width: 30px;
 }
 
-.contacts-text {
+.contacts-text-vk {
+  font-size: 1.5rem;
+  padding-left: 10px;
+  width: 100px;
+}
+
+.contacts-text-github {
+  font-size: 1.5rem;
+  padding-left: 10px;
+  width: 100px;
+}
+
+.contacts-text-gmail {
+  font-size: 1.5rem;
+  padding-left: 10px;
+}
+
+.contacts-text-tel {
   font-size: 1.5rem;
   padding-left: 10px;
 }
